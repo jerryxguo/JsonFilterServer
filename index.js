@@ -4,7 +4,7 @@
  */
 
 var http = require('http');
-var filter = require("./libs/filter.js");
+var filter = require("./filter.js");
 
 /*
  *  server application function 

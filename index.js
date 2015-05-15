@@ -60,6 +60,5 @@ function httpRequest(request, response) {
 /**
  * Launch server
  */
-http.createServer(httpRequest).listen(process.env.PORT ||8888,function() {
-  console.log('Application started on port %d', process.env.PORT ||8888);
-});
+http.createServer(httpRequest).listen(process.env.PORT ||8888);
+console.log("Server has started");	

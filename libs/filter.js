@@ -25,7 +25,7 @@ function  metadataFilter(data){
         }
     }
     catch (e) {
-        console.log("element = " + JSON.stringify(e))
+        //console.log("element = " + JSON.stringify(e))
         throw e;
     }
     

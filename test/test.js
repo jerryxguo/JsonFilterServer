@@ -4,7 +4,7 @@ Unit test scripts.
 
 var chai = require('chai');
 var expect = chai.expect;
-var filter = require("../lib/filter.js");
+var filter = require("../libs/filter.js");
 var data = require("./data.js");
 
 chai.use(require('chai-json-schema'));

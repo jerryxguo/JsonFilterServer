@@ -14,7 +14,7 @@
     "mocha": "^2.2.5"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
     "test": "mocha"
   },
   "repository": {
